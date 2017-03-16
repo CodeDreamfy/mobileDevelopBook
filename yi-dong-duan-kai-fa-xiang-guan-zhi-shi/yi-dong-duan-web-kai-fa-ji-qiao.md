@@ -246,29 +246,33 @@ boolValue = CSS.supports(supportCondition);
 
 #### 常用webkit属性
 
-##### -webkit-appearance:none 
+##### -webkit-appearance:none
 
-去除系统默认appearance的样式,常用于IOS下移除原生样式 
+去除系统默认appearance的样式,常用于IOS下移除原生样式
 
-##### -webkit-user-select: none;   
+##### -webkit-user-select: none;
 
 禁止选中文本（如无文本选中需求，此为必选项）
 
-##### -webkit-touch-callout: color; 
+##### -webkit-touch-callout: color;
 
 当用户点击iOS的Safari浏览器中的链接或JavaScript的可点击的元素时，覆盖显示的高亮颜色。该属性可以只设置透明度。如果未设置透明度，iOS Safari使用默认的透明度。当透明度设为0，则会禁用此属性；当透明度设为1，元素在点击时不可见
 
-##### -webkit-overflow-scrolling: touch;  
+##### -webkit-overflow-scrolling: touch;
 
 属性控制元素在移动设备上是否使用滚动回弹效果.
 
-##### -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
+##### -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
 
 优化字体
 
-##### -webkit-touch-callout: none !important; 
+##### -webkit-touch-callout: none !important;
 
 当你触摸并按住触摸目标时候，禁止或显示系统默认菜单
+
+##### -webkit-tap-highlight-color
+
+点击出现背景色
 
 
 
