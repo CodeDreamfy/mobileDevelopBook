@@ -137,6 +137,10 @@ function is_weixn(){
 
 可以使用`window.navigator.standalone`只读布尔JavaScript属性来确定网页是否以全屏模式显示。
 
+`apple-mobile-web-app-status-bar-style`的`content`默认值为default\(白色\)，可以定为black\(黑色\)和black-translucent\(灰色半透明\)。
+
+注意： 若值为”black-translucent”将会占据页面px位置，浮在页面上方\(会覆盖页面20px高度iphone4和itouch4的Retina屏幕为40px\)
+
 ```html
 <meta name="apple-touch-fullscreen" content="yes" /> /* 全屏显示 */
 ```

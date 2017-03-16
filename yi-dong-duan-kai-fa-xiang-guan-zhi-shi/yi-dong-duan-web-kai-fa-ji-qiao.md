@@ -20,6 +20,8 @@ ontouchstart -> ontouchmove -> ontouchend -> onclick
 
 如果不使用click，也不能简单的用touchstart或touchend替代，需要用touchstart的模拟一个click事件，并且不能发生touchmove事件，或者使用zepto中的tap（轻击）事件。
 
+#### 滚动效果控制
+
 ```css
 body {
     -webkit-overflow-scrolling: touch;//属性控制元素在移动设备上是否使用滚动回弹效果
@@ -32,6 +34,12 @@ body {
 用iphone或ipad浏览很长的网页滚动时的滑动效果很不错吧？不过如果是一个div，然后设置`height:200px;overflow:auto;`的话，可以滚动但是完全没有那滑动效果，很郁闷吧？
 
 看到很多网站为了实现这一效果，用了第三方类库，最常用的是iscroll（包括新浪手机页，百度等） 我一开始也使用，不过自从用了`-webkit-overflow-scrolling: touch;`样式后，就完全可以抛弃第三方类库了，把它加在body{}区域，所有的overflow需要滚动的都可以生效了。
+
+#### 锁定viewport
+
+```js
+ontouchmove="event.preventDefault()" //锁定viewport，任何屏幕操作不移动用户界面（弹出键盘除外）。
+```
 
 
 
