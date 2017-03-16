@@ -150,15 +150,35 @@ a:hover, a.hover { /* 你的hover效果 */ }
 
 这样设计一个链接，感觉可以更像按钮。并且，这个模拟可以用在任何元素上。
 
+其他思路：
+
+要让a链接的CSS active伪类生效，只需要给这个a链接的touch系列的任意事件touchstart/touchend绑定一个空的匿名方法即可hack成功
+
+```HTML
+<style>
+a {
+color: #000;
+}
+a:active {
+color: #fff;
+}
+</style>
+<a herf=”asdasd”>asdasd</a>
+<script>
+var a=document.getElementsByTagName(‘a’);
+for(var i=0;i<a.length;i++){
+a[i].addEventListener(‘touchstart’,function(){},false);
+}
+</script>
+```
+
 #### viewport宽度超过device-width宽度 后导致文字无故折行
 
 [http://www.iunbug.com/archives/2013/04/23/798.html](http://www.iunbug.com/archives/2013/04/23/798.html)
 
 #### 引导用户安装并打开APP
 
-来自
-
-[http://gallery.kissyui.com/redirectToNative/1.2/guide/index.html](http://gallery.kissyui.com/redirectToNative/1.2/guide/index.html)
+来自 [http://gallery.kissyui.com/redirectToNative/1.2/guide/index.html](http://gallery.kissyui.com/redirectToNative/1.2/guide/index.html)
 
 kissy mobile 通过iframe src发送请求打开app自定义url scheme，如taobao://home（淘宝首页） 、etao://scan（一淘扫描）\); 如果安装了客户端则会直接唤起，直接唤起后，之前浏览器窗口（或者扫码工具的webview）推入后台； 如果在指定的时间内客户端没有被唤起，则js重定向到app下载地址。 大概实现代码如下
 
@@ -194,9 +214,7 @@ setTimeout(function() {
 window.location = 'intent://' + schemeUrl + '#Intent;scheme=' + scheme + ';package=' + self.package + ';end';
 ```
 
-补充\[三清水\]\(http://js8.in/2013/12/16/ios%E4%BD%BF%E7%94%A8schema%E5%8D%8F%E8%AE%AE%E8%B0%83%E8%B5%B7app/\)
-
-
+补充\[三清水\]\([http://js8.in/2013/12/16/ios使用schema协议调起app/\](http://js8.in/2013/12/16/ios使用schema协议调起app/\)\)
 
 
 
