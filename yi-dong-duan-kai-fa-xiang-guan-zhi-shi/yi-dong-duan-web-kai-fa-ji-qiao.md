@@ -508,9 +508,9 @@ function musicPlay(isPlay) {
 }
 ```
 
-\[h5背景音乐无法自动播放问题\]\([http://www.h5-share.com/articles/201701/bgmusicarticle.html\](http://www.h5-share.com/articles/201701/bgmusicarticle.html\)\)
+\[h5背景音乐无法自动播放问题\]\([http://www.h5-share.com/articles/201701/bgmusicarticle.html\](http://www.h5-share.com/articles/201701/bgmusicarticle.html%29\)
 
-\[2\]\(http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html\)
+\[2\]\([http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html\](http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html\)\)
 
 #### 拍照上传
 
@@ -520,6 +520,33 @@ function musicPlay(isPlay) {
 ```
 
 不支持其他类型的文件 ，如音频，Pages文档或PDF文件。 也没有getUserMedia摄像头的实时流媒体支持。
+
+#### webView相关
+
+##### Cache开启和设置
+
+```js
+browser.getSettings().setAppCacheEnabled(true);
+browser.getSettings().setAppCachePath("/data/data/[com.packagename]/cache");
+browser.getSettings().setAppCacheMaxSize(5*1024*1024); // 5MB
+```
+
+##### localStorage相关设置
+
+```js
+browser.getSettings().setDatabaseEnabled(true);
+browser.getSettings().setDomStorageEnabled(true);
+String databasePath = browser.getContext().getDir("databases", Context.MODE_PRIVATE).getPath();
+browser.getSettings().setDatabasePath(databasePath);//Android　webview的LocalStorage有个问题，关闭APP或者重启后，就清楚了，所以需要browser.getSettings().setDatabase相关的操作，把LocalStoarge存到DB中
+
+myWebView.setWebChromeClient(new WebChromeClient(){
+　　　 @Override
+　　　 public void onExceededDatabaseQuota(String url, String databaseIdentifier, long currentQuota, long estimatedSize, long totalUsedQuota, WebStorage.QuotaUpdater quotaUpdater)
+　　　 {
+　　　　　　　 quotaUpdater.updateQuota(estimatedSize * 2);
+　　　 }
+}
+```
 
 
 
