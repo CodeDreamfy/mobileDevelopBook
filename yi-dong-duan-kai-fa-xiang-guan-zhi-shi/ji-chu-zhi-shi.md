@@ -114,13 +114,27 @@ function is_weixn(){
 <link rel="apple-touch-startup-image" href="/img/startup.png" />
 ```
 
-这个是APP启动画面图片，用途和上面的类似，如果不设置，启动画面就是白屏，图片像素就是手机全屏的像素
+设置启动时界面显示的图片。如果不设置，启动画面就是白屏，图片像素就是手机全屏的像素
+
+> 该路径需要注意的就是放到将网站的文档根目录下但不是服务器的文档的根目录。
+>
+> 官方规定启动界面的尺寸必须为320\*640（px），原本以为Retina屏幕可以支持双倍，但是不支持，图片显示不出来。
 
 ```html
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /
 ```
 
 这个描述是表示打开的web app的最上面的时间、信号栏是黑色的，当然也可以设置其它参数
+
+```html
+<meta name =“apple-mobile-web-app-capable”content =“yes”>
+```
+
+如果`content`设置为`yes`，Web应用程序以全屏模式运行;否则，它不会。默认行为是使用Safari显示Web内容。
+
+您可以使用`window.navigator.standalone`只读布尔JavaScript属性来确定网页是否以全屏模式显示。
+
+> 仅适用于iOS
 
 ```html
 <meta name="apple-touch-fullscreen" content="yes" /> /* 全屏显示 */
