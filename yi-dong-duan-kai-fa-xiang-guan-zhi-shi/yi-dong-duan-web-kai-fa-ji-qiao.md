@@ -41,5 +41,20 @@ body {
 ontouchmove="event.preventDefault()" //锁定viewport，任何屏幕操作不移动用户界面（弹出键盘除外）。
 ```
 
+#### 利用media Query监听
+
+```js
+Window.matchMedia() //返回一个新的MediaQueryList 对象，表示指定的媒体查询字符串解析后的结果
+//其中mediaQueryString参数是一个字符串，表示即将返回一个新MediaQueryList对象的媒体查询
+```
+
+```js
+if (window.matchMedia("(min-width: 400px)").matches) {
+  /* the view port is at least 400 pixels wide */
+} else {
+  /* the view port is less than 400 pixels wide */
+}
+```
+
 
 
