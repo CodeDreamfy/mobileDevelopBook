@@ -335,7 +335,7 @@ var element = document.getElementById("slidingMenu");
 element.addEventListener("transitionend", showMessage, false);
 ```
 
-\[叶小钗 - transitionEnd小故事\]\([http://www.cnblogs.com/yexiaochai/p/3602303.html\](http://www.cnblogs.com/yexiaochai/p/3602303.html\)\)
+\[叶小钗 - transitionEnd小故事\]\([http://www.cnblogs.com/yexiaochai/p/3602303.html\](http://www.cnblogs.com/yexiaochai/p/3602303.html%29\)
 
 #### 判断是否是微信打开1
 
@@ -402,5 +402,5 @@ function orientationChange() {
 <video webkit-playsinline playsinline></video>
 ```
 
-
+\[参考地址\]\(https://webkit.org/blog/6784/new-video-policies-for-ios/\)
 
