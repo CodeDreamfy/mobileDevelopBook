@@ -102,6 +102,8 @@ function is_weixn(){
 
 #### 页面描述
 
+> 以下属性可能仅适用于iOS
+
 ```html
 <link rel="apple-touch-icon-precomposed" href="http://www.xxx.com/App_icon_114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.xxx.com/App_icon_72.png" />
@@ -133,8 +135,6 @@ function is_weixn(){
 如果`content`设置为`yes`，Web应用程序以全屏模式运行;否则，它不会。默认行为是使用Safari显示Web内容。
 
 您可以使用`window.navigator.standalone`只读布尔JavaScript属性来确定网页是否以全屏模式显示。
-
-> 仅适用于iOS
 
 ```html
 <meta name="apple-touch-fullscreen" content="yes" /> /* 全屏显示 */
