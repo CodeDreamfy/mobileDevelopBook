@@ -392,7 +392,13 @@ function orientationChange() {
     };};
 ```
 
-##### 
+#### 页面视频全屏播放/小窗播放
+
+需要用到`webkit-playsinline playsinline`属性
+
+```html
+<video webkit-playsinline playsinline></video>
+```
 
 
 
