@@ -51,23 +51,27 @@
 * 总体特性更接近原生APP，开发成本与难度相对比会低一些
 * 可以调用系统底层的的照相机、传感器、通讯录等，但PhoneGap程序的加载和UI接口的反应都比本地的程序慢
 
-##### PhoneGap
+> ##### PhoneGap
+>
+> PhoneGap是一款开发源代码的移动设备开发框架，旨在让开发者使用[H](https://zh.wikipedia.org/wiki/HTML)TML、CSS、Javascript等Web APIs开发跨平台的移动设备应用程序。
+>
+> PhoneGap是一个行动设备的[API](https://zh.wikipedia.org/wiki/API)接口集，利用JavaScript访问这些接口可以调用诸如摄影机、罗盘等硬件系统资源。配合上一些基于[HTML5](https://zh.wikipedia.org/wiki/HTML5)、[CSS3](https://zh.wikipedia.org/wiki/CSS3)技术的[UI](https://zh.wikipedia.org/wiki/UI)框架，如jQuery Mobile、Dojo Mobile或Sencha Touch，开发者得以快速地开发跨平台App而不需要编写任何的原生代码。[\[11\]](https://zh.wikipedia.org/wiki/Adobe_PhoneGap#cite_note-11)
+>
+> 注意到因为PhoneGap本身仍是一个原生程序，为App打包时依然需要用到这些系统平台的SDK。
+>
+> ##### Apache Cordova
+>
+> 2011年10月4日PhoneGap代码贡献给了Apache软件基金会，但保留了PhoneGap的商标版权，并命名为Apache Callback，后来改名为Apache Cordova。
+>
+> Cordova提供了一组设备相关的API，通过这组API，移动应用能够以JavaScript访问原生的设备功能，如摄像头、麦克风等。
+>
+> Cordova还提供了一组统一的JavaScript类库，以及为这些类库所用的设备相关的原生后台代码。 Cordova支持如下移动操作系统：iOS, Android,ubuntu phone os, Blackberry, Windows Phone, Palm WebOS, Bada 和 Symbian
+>
+> ##### Phonegap Build
+>
+> Phonegap Build是一个在线打包工具，使用cordova写好的项目给Phonegap Build，Phonegap Build就会在线打包成App，目前大家所说的Phonegap，其实指的都是cordova。Phonegap Build，（[iPhone, Android SDK service](https://link.zhihu.com/?target=http%3A//html.adobe.com/edge/phonegap-build/)）和cordova（[Apache Cordova](https://link.zhihu.com/?target=http%3A//cordova.apache.org/)）的合体
 
-PhoneGap是一款开发源代码的移动设备开发框架，旨在让开发者使用[H](https://zh.wikipedia.org/wiki/HTML)TML、CSS、Javascript等Web APIs开发跨平台的移动设备应用程序。
+##### 
 
-PhoneGap是一个行动设备的[API](https://zh.wikipedia.org/wiki/API)接口集，利用JavaScript访问这些接口可以调用诸如摄影机、罗盘等硬件系统资源。配合上一些基于[HTML5](https://zh.wikipedia.org/wiki/HTML5)、[CSS3](https://zh.wikipedia.org/wiki/CSS3)技术的[UI](https://zh.wikipedia.org/wiki/UI)框架，如jQuery Mobile、Dojo Mobile或Sencha Touch，开发者得以快速地开发跨平台App而不需要编写任何的原生代码。[\[11\]](https://zh.wikipedia.org/wiki/Adobe_PhoneGap#cite_note-11)
 
-注意到因为PhoneGap本身仍是一个原生程序，为App打包时依然需要用到这些系统平台的SDK。
-
-##### Apache Cordova
-
-2011年10月4日PhoneGap代码贡献给了Apache软件基金会，但保留了PhoneGap的商标版权，并命名为Apache Callback，后来改名为Apache Cordova。
-
-Cordova提供了一组设备相关的API，通过这组API，移动应用能够以JavaScript访问原生的设备功能，如摄像头、麦克风等。
-
-Cordova还提供了一组统一的JavaScript类库，以及为这些类库所用的设备相关的原生后台代码。 Cordova支持如下移动操作系统：iOS, Android,ubuntu phone os, Blackberry, Windows Phone, Palm WebOS, Bada 和 Symbian
-
-##### Phonegap Build
-
-Phonegap Build是一个在线打包工具，使用cordova写好的项目给Phonegap Build，Phonegap Build就会在线打包成App，目前大家所说的Phonegap，其实指的都是cordova。Phonegap Build，（[iPhone, Android SDK service](https://link.zhihu.com/?target=http%3A//html.adobe.com/edge/phonegap-build/)）和cordova（[Apache Cordova](https://link.zhihu.com/?target=http%3A//cordova.apache.org/)）的合体
 
