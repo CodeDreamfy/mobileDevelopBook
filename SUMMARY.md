@@ -8,6 +8,7 @@
   * [手机相关](chapter1/shou-ji-xiang-guan.md)
 * [移动端开发相关知识](yi-dong-duan-kai-fa-xiang-guan-zhi-shi.md)
   * [viewport概念](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/viewportgai-nian.md)
+  * [html](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/html.md)
 * 移动端适配方式演进
 * 其他注意问题
 * [未来发展](wei-lai-fa-zhan.md)
