@@ -233,11 +233,11 @@ window.location = 'intent://' + schemeUrl + '#Intent;scheme=' + scheme + ';packa
 document.implementation.hasFeature("http:// www.w3.org/TR/SVG11/feature#Image", "1.1")
 ```
 
-测试是否支持某CSS属性
+#### 测试是否支持某CSS属性
 
-**`CSS.supports()`**
+`CSS.supports()`
 
-The**`CSS.supports()`**static methods returns a[`Boolean`](https://developer.mozilla.org/en-US/docs/Web/API/Boolean)value indicating if the browser supports a given CSS feature, or not.
+The`CSS.supports()`static methods returns a[`Boolean`](https://developer.mozilla.org/en-US/docs/Web/API/Boolean)value indicating if the browser supports a given CSS feature, or not.
 
 ```js
 boolValue = CSS.supports(propertyName, value);
