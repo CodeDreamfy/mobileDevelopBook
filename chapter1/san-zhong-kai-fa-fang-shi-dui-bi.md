@@ -51,6 +51,12 @@
 * 总体特性更接近原生APP，开发成本与难度相对比会低一些
 * 可以调用系统底层的的照相机、传感器、通讯录等
 
+##### PhoneGap
+
+**PhoneGap**
+
+是一款开发源代码的移动设备开发框架，旨在让开发者使用[H](https://zh.wikipedia.org/wiki/HTML)TML、CSS、Javascript等Web APIs开发跨平台的移动设备应用程序
+
 ##### Apache Cordova
 
 移动应用开发框架，你基于这个东西可以用网页代码作出APP
@@ -61,5 +67,5 @@ Cordova还提供了一组统一的JavaScript类库，以及为这些类库所用
 
 ##### Phonegap Build
 
-Phonegap Build是一个在线打包工具，你把使用cordova写好的项目给Phonegap Build，Phonegap Build就会在线打包成App,目前大家所说的Phonegap，其实指的都是cordova,Phonegap Build，（[iPhone, Android SDK service](https://link.zhihu.com/?target=http%3A//html.adobe.com/edge/phonegap-build/)）和cordova（[Apache Cordova](https://link.zhihu.com/?target=http%3A//cordova.apache.org/)）的合体
+Phonegap Build是一个在线打包工具，你把使用cordova写好的项目给Phonegap Build，Phonegap Build就会在线打包成App，目前大家所说的Phonegap，其实指的都是cordova,Phonegap Build，（[iPhone, Android SDK service](https://link.zhihu.com/?target=http%3A//html.adobe.com/edge/phonegap-build/)）和cordova（[Apache Cordova](https://link.zhihu.com/?target=http%3A//cordova.apache.org/)）的合体
 
