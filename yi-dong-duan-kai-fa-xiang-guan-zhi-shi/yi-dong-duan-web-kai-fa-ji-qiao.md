@@ -48,6 +48,17 @@ Window.matchMedia() //返回一个新的MediaQueryList 对象，表示指定的�
 //其中mediaQueryString参数是一个字符串，表示即将返回一个新MediaQueryList对象的媒体查询
 ```
 
+设置一个查询列表用来判定设备屏幕处于横屏还是竖屏，那你可以像下面这样编码：
+
+```js
+var mql = window.matchMedia("(orientation: portrait)");
+if (mql.matches) {
+  /* The device is currently in portrait orientation */
+} else {
+  /* The device is currently in landscape orientation */
+}
+```
+
 ```js
 if (window.matchMedia("(min-width: 400px)").matches) {
   /* the view port is at least 400 pixels wide */
@@ -68,7 +79,7 @@ handleOrientationChange(mql);
 
 需要注意的是，当我们添加监听后，我们其实直接调用了一次监听。这会让我们的监听器以目前设备方向来初始化判定代码。或者说如果我们代码设定设备处于竖屏模式，而实际上它启动时处于横屏模式，那么我们后面的判断就出现矛盾了。
 
-我们可以在`handleOrientationChange()` 方法中来查看查询结果
+我们可以在`handleOrientationChange()` 方法中来查看查询结果
 
 ```js
 function handleOrientationChange(mql) {
@@ -81,16 +92,6 @@ function handleOrientationChange(mql) {
 //终止查询通知
 mql.removeListener(handleOrientationChange);
 ```
-
-
-
-
-
-
-
-
-
-
 
 
 
