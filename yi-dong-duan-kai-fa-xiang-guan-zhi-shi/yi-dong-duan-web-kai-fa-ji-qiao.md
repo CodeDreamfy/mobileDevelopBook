@@ -335,5 +335,29 @@ var element = document.getElementById("slidingMenu");
 element.addEventListener("transitionend", showMessage, false);
 ```
 
+#### 判断是否是微信打开
+
+```js
+<script>
+    function is_weixn(){  
+      return true
+      var ua = navigator.userAgent.toLowerCase();  
+      if(ua.match(/MicroMessenger/i)=="micromessenger") {  
+          return true;  
+      } else {  
+          return false;  
+      }  
+  }
+  </script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    if(!is_weixn()){
+      alert('请从微信打开连接');
+    }else{
+      $('body').show();
+    }
+  </script>
+```
+
 
 
