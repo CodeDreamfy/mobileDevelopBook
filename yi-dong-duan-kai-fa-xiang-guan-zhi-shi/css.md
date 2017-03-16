@@ -40,5 +40,5 @@ flex有三个版本，分别对应于
 
 ##### before、after
 
-在移动端android下用before或者after伪类写动画的时候会发现动画不动
+在移动端android下用::before或者::after伪类写动画的时候会发现animation无效，动画不动，解决办法是不使用伪类
 
