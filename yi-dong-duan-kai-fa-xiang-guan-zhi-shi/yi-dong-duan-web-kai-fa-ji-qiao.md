@@ -372,6 +372,14 @@ function is_weixn(){
         return false;
     }
 }
+//php判断
+function is_weixin(){
+    if ( strpos($_SERVER['HTTP_USER_AGENT'], 'MicroMessenger') !== false ) {
+            return true;
+    }
+    return false;
+}
+
 ```
 
 #### 判断屏幕是否旋转
@@ -557,4 +565,14 @@ myWebView.setWebChromeClient(new WebChromeClient(){
 延时加载执行js
 
 主要原因就在于Android Webview的onPageFinished事件，Android端一般是用这个事件来标识页面加载完成并显示的，也就是说在此之前，会一直loading，但是Android的OnPageFinished事件会在Javascript脚本执行完成之后才会触发。如果在页面中使用JQuery，会在处理完DOM对象，执行完$\(document\).ready\(function\(\) {}\);事件自会后才会渲染并显示页面
+
+#### 静态资源缓存问题
+
+一般用代理软件代理过来的静态资源可以设置nocache避免缓存，但是有的手机比较诡异，会一直缓存住css等资源文件。由于静态资源一般都是用版本号管理的
+
+
+
+
+
+
 
