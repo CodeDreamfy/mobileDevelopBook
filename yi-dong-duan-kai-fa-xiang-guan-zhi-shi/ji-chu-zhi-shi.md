@@ -123,8 +123,8 @@ function is_weixn(){
 这个描述是表示打开的web app的最上面的时间、信号栏是黑色的，当然也可以设置其它参数
 
 ```html
-<meta name="apple-touch-fullscreen" content="yes" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" /> /* 全屏显示 */
+<meta name="apple-mobile-web-app-capable" content="yes" /> /* 删除默认的苹果工具栏和菜单栏,默认是显示 */
 ```
 
 
