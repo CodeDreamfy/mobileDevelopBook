@@ -14,5 +14,5 @@ Mobile Safari引入了“viewport元标签”来让web开发者更好的控制�
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 ```
 
-
+width控制视口的宽度。可以像width=600这样设为确切的像素值， ssccc
 
