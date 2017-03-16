@@ -17,6 +17,46 @@ meta标签在开发APP时起到非常重要的作用
 
 #### 移动端开发事件
 
+##### 手势事件
+
+* touchstart //当手指接触屏幕时触发
+* touchmove //当手指已经接触屏幕并开始移动后触发
+* touchend //当手指离开屏幕时触发
+* touchcancel
+
+##### 触摸事件
+
+* gesturestart //当两个手指接触屏幕时触发
+* gesturechange //当两个手指接触屏幕后开始移动时触发
+* gestureend
+
+##### 屏幕旋转事件
+
+* oneorientationchange
+
+##### 检测触摸屏幕的手指何时改变方向
+
+* orientationchange
+
+##### touch事件支持的相关属性
+
+* touches
+* targetTouches
+* changedTouches
+* clientX　　　　// X coordinate of touch relative to the viewport \(excludes scroll offset\)
+* clientY　　　　// Y coordinate of touch relative to the viewport \(excludes scroll offset\)
+* screenX　　　 // Relative to the screen
+* screenY 　　 // Relative to the screen
+* pageX　　 　　// Relative to the full page \(includes scrolling\)
+* pageY　　　　 // Relative to the full page \(includes scrolling\)
+* target　　　　 // Node the touch event originated from
+* identifier　　 // An identifying number, unique to each touch event
+* 屏幕旋转事件：onorientationchange
+
+
+
+
+
 #### webkit CSS
 
 #### 页面描述
