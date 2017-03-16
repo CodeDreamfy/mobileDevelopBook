@@ -53,39 +53,6 @@ meta标签在开发APP时起到非常重要的作用
 * identifier　　 // An identifying number, unique to each touch event
 * 屏幕旋转事件：onorientationchange
 
-##### 判断屏幕是否旋转
-
-```js
-function orientationChange() {
-    switch(window.orientation) {
-    　　case 0:
-            alert("肖像模式 0,screen-width: " + screen.width + "; screen-height:" + screen.height);
-            break;
-    　　case -90:
-            alert("左旋 -90,screen-width: " + screen.width + "; screen-height:" + screen.height);
-            break;
-    　　case 90:
-            alert("右旋 90,screen-width: " + screen.width + "; screen-height:" + screen.height);
-            break;
-    　　case 180:
-        　　alert("风景模式 180,screen-width: " + screen.width + "; screen-height:" + screen.height);
-        　　break;
-    };};
-```
-
-##### 判断是否是微信浏览器
-
-```js
-function is_weixn(){
-    var ua = navigator.userAgent.toLowerCase();
-    if(ua.match(/MicroMessenger/i)=="micromessenger") {
-        return true;
-    } else {
-        return false;
-    }
-}
-```
-
 
 
 #### 页面描述
