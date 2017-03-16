@@ -93,5 +93,46 @@ function handleOrientationChange(mql) {
 mql.removeListener(handleOrientationChange);
 ```
 
+#### rem实践
+
+rem是非常好用的一个属性，可以根据html来设定基准值，而且兼容性也很不错。
+
+兼容 低端浏览器不出问题：
+
+```css
+html { font-size: 62.5%; }
+body { font-size: 14px; font-size: 1.4rem; } /* =14px */
+h1   { font-size: 24px; font-size: 2.4rem; } /* =24px */
+```
+
+#### 检查判断iPHone/iPod
+
+```js
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+　　if (document.cookie.indexOf("iphone_redirect=false") == -1) {
+　　　　window.location = "http://m.example.com";
+　　}
+}
+```
+
+虽然Javascript是可以在水果设备上运行的，但是用户还是可以禁用。它也会造成客户端刷新和额外的数据传输，所以下面是服务器端侦测和转向：
+
+```php
+if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'iPod')) {
+　　header('Location: http://yoursite.com/iphone');
+　　exit();
+}
+```
+
+#### 阻止屏幕旋转时字体自动调整
+
+```css
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+```
+
+
+
+
+
 
 
