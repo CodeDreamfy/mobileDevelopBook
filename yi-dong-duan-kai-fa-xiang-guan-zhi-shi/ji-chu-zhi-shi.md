@@ -134,11 +134,11 @@ function is_weixn(){
 
 如果`content`设置为`yes`，Web应用程序以全屏模式运行;否则，它不会。默认行为是使用Safari显示Web内容。
 
-您可以使用`window.navigator.standalone`只读布尔JavaScript属性来确定网页是否以全屏模式显示。
+可以使用`window.navigator.standalone`只读布尔JavaScript属性来确定网页是否以全屏模式显示。
 
 ```html
 <meta name="apple-touch-fullscreen" content="yes" /> /* 全屏显示 */
 ```
 
-以上iOS的meta属性可以参考\([https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html\](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html\)\)
+以上iOS的meta属性可以参考\([https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html\](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html%29\)
 
