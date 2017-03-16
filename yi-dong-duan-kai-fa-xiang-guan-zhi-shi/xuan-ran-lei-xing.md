@@ -7,7 +7,7 @@
 * border-radius
 * box-shadow
 * text-shadow
-* linear-gradient
+* linear-gradient（webkit与标准颜色渐变方向相差90deg）
 
 
 
