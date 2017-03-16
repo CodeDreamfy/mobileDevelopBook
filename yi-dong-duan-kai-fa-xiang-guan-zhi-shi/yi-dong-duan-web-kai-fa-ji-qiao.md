@@ -274,5 +274,34 @@ boolValue = CSS.supports(supportCondition);
 
 点击出现背景色
 
+#### 指定时间调用scroll/resize事件
+
+由于绑定scroll事件或者resize会重复触发，导致浏览器崩溃，因为应该这样优化
+
+正常的情况下类似这样
+
+```js
+$('div').on('scroll', function(){
+//.….code
+{});
+```
+
+而如果中间的code需要处理的东西多的话，fps就会下降影响程序顺滑度，而如果改成这样
+
+```js
+//可以分为两次，第一次调用是不存在scrollTimer的，所以会执行下面的；第二次的时候会先干掉第一次执行的；
+$(window).on('scroll', function(){
+    if($addMore.offset().top - $(window).scrollTop() < $(window).height()){ 
+      if(scrollTimer){
+        clearTimeout(scrollTimer)
+      }
+      scrollTimer = setTimeout(function(){
+        $container.append($items).masonry('appended', $items, true);
+      }, 400);
+    }
+  })
+
+```
+
 
 
