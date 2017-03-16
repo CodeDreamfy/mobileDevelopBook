@@ -44,5 +44,11 @@
 
 通过介绍上面两种开发方式后，就有了目前这种基于原生APP内部内嵌页面的新思路，这种开发在一定程度上降低了开发成本，在混合应用里面有两个玩家：Phonegap/Cordova和Appcelerator Titanium。使用这两种工具，可以将本地创建的HTML/CSS/Javascript本地文件，通过Cordova将他们包装到移动应用中。
 
-这种方式的基本思路是伪造一个浏览器的apk原生程序，把地址写死，然后里面运行一个webapp，里面是webView UI，体验度比webapp好一些。
+这种方式的基本思路是伪造一个浏览器的apk原生程序，把地址写死，然后里面运行一个webapp，里面是UI WebView，而不是（safari或chrome）体验度比webapp好一些。
+
+* 兼具了Web App使用HTML5跨平台开发低成本的优势
+* 只需要一处开发多版本迭代就可以移植到各平台上面
+* 总体特性更接近原生APP，开发成本与难度相对比较低，
+
+
 
