@@ -510,7 +510,7 @@ function musicPlay(isPlay) {
 
 \[h5背景音乐无法自动播放问题\]\([http://www.h5-share.com/articles/201701/bgmusicarticle.html\](http://www.h5-share.com/articles/201701/bgmusicarticle.html%29\)
 
-\[2\]\([http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html\](http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html\)\)
+\[2\]\([http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html\](http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html%29\)
 
 #### 拍照上传
 
@@ -548,5 +548,13 @@ myWebView.setWebChromeClient(new WebChromeClient(){
 }
 ```
 
+#### 几个比较好的实践
 
+使用localstorage缓存html
+
+使用lazyload，还要记得lazyload占位图虽然小，但是最好能提前加载到缓存
+
+延时加载执行js
+
+主要原因就在于Android Webview的onPageFinished事件，Android端一般是用这个事件来标识页面加载完成并显示的，也就是说在此之前，会一直loading，但是Android的OnPageFinished事件会在Javascript脚本执行完成之后才会触发。如果在页面中使用JQuery，会在处理完DOM对象，执行完$\(document\).ready\(function\(\) {}\);事件自会后才会渲染并显示页面
 
