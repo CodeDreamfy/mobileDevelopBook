@@ -20,5 +20,5 @@ pc端我们采用的jQuery，到了手机端我们推荐Zepto，轻量级，需�
 
 不过有个好消息，就是手机版chrome21.0之后，对于viewport width=device-width，并且禁止缩放的设置，click点击将取消300ms的强制等待时间，这个会是web的响应时间大大提升。ios至今还没有此类消息。不过这个还需要有一段时间。
 
-所以，如果使用了zepto类似的dom库可能会提供tap这样的事件，尽量za
+所以，如果使用了zepto类似的dom库可能会提供tap这样的事件，尽量zassza
 
