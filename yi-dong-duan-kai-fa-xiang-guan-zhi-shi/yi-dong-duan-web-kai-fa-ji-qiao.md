@@ -461,17 +461,52 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 ```
 
-部分Android浏览器和所有safari浏览器不支持自动播放
+##### 部分Android浏览器和所有safari浏览器不支持自动播放
 
-解决方案：通过手势事件播放音乐　　
+解决方案：通过手势事件播放音乐
 
 \(1\) 监听body的touchstart事件，回调中播放音乐；
 
-缺点：部分元素的touch事件可能会阻止冒泡，需要在对应的地方调起播放音乐函数　　
+缺点：部分元素的touch事件可能会阻止冒泡，需要在对应的地方调起播放音乐函数
 
 \(2\) 可以增加透明层，点击到透明层，播放音乐，关闭透明层；
 
 缺点：第一次点击按钮元素可能不响应，造成用户体验上的伤害。
+
+##### 部分App不支持webview自动播放
+
+解决方案：1.壳浏览器支持；2.通过手势事件播放音乐
+
+```js
+// 音乐播放
+function autoPlayMusic() {
+    // 自动播放音乐效果，解决浏览器或者APP自动播放问题
+    function musicInBrowserHandler() {
+        musicPlay(true);
+        document.body.removeEventListener('touchstart', musicInBrowserHandler);
+    }
+    document.body.addEventListener('touchstart', musicInBrowserHandler);
+
+    // 自动播放音乐效果，解决微信自动播放问题
+    function musicInWeixinHandler() {
+        musicPlay(true);
+        document.addEventListener("WeixinJSBridgeReady", function () {
+            musicPlay(true);
+        }, false);
+        document.removeEventListener('DOMContentLoaded', musicInWeixinHandler);
+    }
+    document.addEventListener('DOMContentLoaded', musicInWeixinHandler);
+}
+function musicPlay(isPlay) {
+    var media = document.querySelector('#bg-music');
+    if (isPlay && media.paused) {
+        media.play();
+    }
+    if (!isPlay && !media.paused) {
+        media.pause();
+    }
+}
+```
 
 
 
