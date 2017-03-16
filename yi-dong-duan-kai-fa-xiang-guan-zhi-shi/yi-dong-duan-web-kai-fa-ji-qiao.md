@@ -402,5 +402,49 @@ function orientationChange() {
 <video webkit-playsinline playsinline></video>
 ```
 
-\[参考地址\]\(https://webkit.org/blog/6784/new-video-policies-for-ios/\)
+\[参考地址\]\([https://webkit.org/blog/6784/new-video-policies-for-ios/\](https://webkit.org/blog/6784/new-video-policies-for-ios/\)\)
+
+#### 音频与视频
+
+```html
+<audio autoplay ><source  src="audio/alarm1.mp3" type="audio/mpeg"></audio>
+```
+
+系统默认情况下 audio的autoplay属性是无法生效的，这也是手机为节省用户流量做的考虑。 如果必须要自动播放，有两种方式可以解决。
+
+1.捕捉一次用户输入后，让音频加载，下次即可播放。
+
+```js
+//play and pause it once
+document.addEventListener('touchstart', function () {
+    document.getElementsByTagName('audio')[0].play();
+    document.getElementsByTagName('audio')[0].pause();
+});
+```
+
+这种方法需要捕获一次用户的点击事件来促使音频跟视频加载。当加载后，你就可以用javascript控制音频的播放了，如调用audio.play\(\)
+
+2.利用iframe加载资源
+
+```js
+var ifr=document.createElement("iframe");
+ifr.setAttribute('src', "http://mysite.com/myvideo.mp4");
+ifr.setAttribute('width', '1px');
+ifr.setAttribute('height', '1px');
+ifr.setAttribute('scrolling', 'no');
+ifr.style.border="0px";
+document.body.appendChild(ifr);
+```
+
+这种方式其实跟第一种原理是一样的。当资源加载了你就可以控制播放了，但是这里使用iframe来加载，相当于直接触发资源加载。 注意，使用创建audio标签并让其加载的方式是不可行的。 慎用这种方法，会对用户造成很糟糕的影响。
+
+#### 大部分iOS系统与少部分Android微信不支持自动播放
+
+##### 解决方案
+
+监听WeixinJSBridgeReady事件、DOMContentLoaded事件
+
+微信的JS API建立在微信壳浏览器的内置JS对象WeixinJSBridge上，WeixinJSBridge并不是WebView一打开就有了，客户端需要初始化这个对象，当这个对象准备好的时候，客户端会抛出事件"WeixinJSBridgeReady"。发现部分机型，监听DOMContentLoaded和load事件，在回调中也可以播放音乐；所以，为了保险起见，可以同时监听两个事件，以增强其适用性。
+
+
 
