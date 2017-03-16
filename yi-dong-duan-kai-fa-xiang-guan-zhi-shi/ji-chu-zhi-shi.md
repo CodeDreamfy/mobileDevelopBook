@@ -102,7 +102,7 @@ function is_weixn(){
 
 #### 页面描述
 
-> 以下属性可能仅适用于iOS
+> 以下属性仅适用于iOS
 
 ```html
 <link rel="apple-touch-icon-precomposed" href="http://www.xxx.com/App_icon_114.png" />
@@ -140,5 +140,5 @@ function is_weixn(){
 <meta name="apple-touch-fullscreen" content="yes" /> /* 全屏显示 */
 ```
 
-以上iOS的meta属性可以参考\(https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html\)
+以上iOS的meta属性可以参考\([https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html\](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html\)\)
 
