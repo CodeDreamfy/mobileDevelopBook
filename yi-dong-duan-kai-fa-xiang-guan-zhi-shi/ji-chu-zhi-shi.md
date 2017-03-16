@@ -129,7 +129,8 @@ function is_weixn(){
 这个描述是表示打开的web app的最上面的时间、信号栏是黑色的，当然也可以设置其它参数
 
 ```html
-<meta name="apple-mobile-web-app-capabl" content =“yes”>
+<meta name="apple-mobile-web-app-capabl" content ="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 ```
 
 如果`content`设置为`yes`，Web应用程序以全屏模式运行;否则，它不会。默认行为是使用Safari显示Web内容。
