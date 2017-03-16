@@ -312,11 +312,13 @@ a {-webkit-transform: translateZ(0); transform: translateZ(0);}
 
 ```css
 .hiddenText {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 ```
 
+#### transitionend事件
 
+`transitionend` 事件会在`css transition` 结束后触发. 当transition完成前移除transition时，比如移除css的`transition-property`属性，事件将不会被触发.如在`transition`完成前设置`display:none`，事件同样不会被触发
 
