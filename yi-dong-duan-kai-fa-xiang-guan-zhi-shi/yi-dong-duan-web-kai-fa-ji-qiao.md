@@ -508,5 +508,5 @@ function musicPlay(isPlay) {
 }
 ```
 
-
+\[h5背景音乐无法自动播放问题\]\(http://www.h5-share.com/articles/201701/bgmusicarticle.html\)
 
