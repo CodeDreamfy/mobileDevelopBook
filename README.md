@@ -1,3 +1,18 @@
-# My Awesome Book
+# 浅谈移动端开发
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+总结梳理自己懂和不懂得移动端方面的知识
+
+主要分为：
+
+三种开发方式对比
+
+基于两种操作系统开发的异同点
+
+viewport相关概念
+
+移动端适配方式演进
+
+注意问题
+
+未来发展
+
