@@ -4,5 +4,5 @@
 
 文章内主要参考了
 
- \[阿里巴巴无线前端规范\] \([https://am-team.github.io/amg/dev-exp-do](https://am-team.github.io/amg/dev-exp-doc.html%29%29%29%29\)c.html\)
+\[阿里巴巴无线前端规范\] 
 
