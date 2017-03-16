@@ -184,7 +184,19 @@ setTimeout(function() {
 }
 ```
 
-需要注意的是 如果是android chrome 25版本以后，在iframe src不会发送请求， 原因如下[https://developers.google.com/chrome/mobile/docs/intents](https://developers.google.com/chrome/mobile/docs/intents)，通过location href使用intent机制拉起客户端可行并且当前页面不跳转。
+需要注意的是 如果是android chrome 25版本以后，在iframe src不会发送请求， 原因如下：
+
+[https://developers.google.com/chrome/mobile/docs/intents](https://developers.google.com/chrome/mobile/docs/intents)
+
+通过location href使用intent机制拉起客户端可行并且当前页面不跳转。
+
+```
+window.location = 'intent://' + schemeUrl + '#Intent;scheme=' + scheme + ';package=' + self.package + ';end';
+```
+
+补充\[三清水\]\(http://js8.in/2013/12/16/ios%E4%BD%BF%E7%94%A8schema%E5%8D%8F%E8%AE%AE%E8%B0%83%E8%B5%B7app/\)
+
+
 
 
 
