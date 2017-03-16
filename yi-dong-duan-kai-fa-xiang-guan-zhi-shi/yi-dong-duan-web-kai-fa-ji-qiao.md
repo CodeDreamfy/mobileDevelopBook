@@ -305,7 +305,17 @@ $(window).on('scroll', function(){
 #### 强制GPU渲染
 
 ```css
-a {-webkit-transform: translateZ(0); transform: translateZ(0);}
+a {-webkit-transform: translateZ(0); transform: translateZ(0);}
+```
+
+#### 文字过多自动省略
+
+```css
+.hiddenText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 ```
 
 
