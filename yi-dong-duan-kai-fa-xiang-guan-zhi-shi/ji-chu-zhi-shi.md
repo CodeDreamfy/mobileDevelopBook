@@ -88,9 +88,44 @@ function is_weixn(){
 
 #### webkit CSS
 
-主要
+```css
+.xxx {
+-webkit-appearance:none //去除系统默认appearance的样式,常用于IOS下移除原生样式
+-webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+-webkit-touch-callout: color; //当用户点击iOS的Safari浏览器中的链接或JavaScript的可点击的元素时，覆盖显示的高亮颜色。该属性可以只设置透明度。如果未设置透明度，iOS Safari使用默认的透明度。当透明度设为0，则会禁用此属性；当透明度设为1，元素在点击时不可见
+ -webkit-overflow-scrolling: touch;  //流畅滚动
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none !important; //当你触摸并按住触摸目标时候，禁止或显示系统默认菜单
+}
+```
 
 #### 页面描述
+
+```html
+<link rel="apple-touch-icon-precomposed" href="http://www.xxx.com/App_icon_114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.xxx.com/App_icon_72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.xxx.com/App_icon_114.png" />
+```
+
+这个属性是当用户把连接保存到手机桌面时使用的图标，如果不设置，则会用网页的截图。有了这，就可以让你的网页像APP一样存在手机里了
+
+```html
+<link rel="apple-touch-startup-image" href="/img/startup.png" />
+```
+
+这个是APP启动画面图片，用途和上面的类似，如果不设置，启动画面就是白屏，图片像素就是手机全屏的像素
+
+```html
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /
+```
+
+这个描述是表示打开的web app的最上面的时间、信号栏是黑色的，当然也可以设置其它参数
+
+```html
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+```
 
 
 
