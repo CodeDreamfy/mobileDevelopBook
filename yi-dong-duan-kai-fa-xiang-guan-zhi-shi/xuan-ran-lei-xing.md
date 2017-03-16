@@ -48,6 +48,7 @@
    1. 当前节点的一个动画还没结束吗，另外一个动画马上设置，之前的动画结束事件有时候会消失，其具体原因不明
    2. 如果当前节点动画，因为准备时间太长，而结束属性已经设置，则不会触发动画结束事件
    3. 如果在动画期间，发生垃圾回收等其他事件所造成的时间超过其动画时间，动画结束事件可能不会发生
+5. 执行动画尽量使用CSS3 keyframes和 trainsition 如果需要JS执行动画，使用requestAnimationFrame,或者Velocity,避免使用jQuery动画,setTimeout,setInterval。 js动画的优点是，我们能随时控制开始，暂停，停止，而CSS不行。缺点是没办法像css这样优化，因为js动画是在主线程上跑的。 动画尽量使用transform,opacity，尽量避免left/padding/background-position等 尽可能的为产生动画的元素使用fixed或absolute的position 阴影渐显动画尽量用伪类的opacity来实现。点击这里 使用3D硬件加速提升动画性能时，最好给元素增加一个z-index属性，人为干扰复合层的排序，可以有效减少chrome创建不必要的复合层，提升渲染性能，移动端优化效果尤为明显。
 
 综上所述，在手机web上使用动画的时候，需要谨慎。
 

@@ -11,6 +11,7 @@
   * [html](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/html.md)
   * [css](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/css.md)
   * [渲染类型](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/xuan-ran-lei-xing.md)
+  * [Javascript](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/javascript.md)
 * 移动端适配方式演进
 * 其他注意问题
 * [未来发展](wei-lai-fa-zhan.md)
