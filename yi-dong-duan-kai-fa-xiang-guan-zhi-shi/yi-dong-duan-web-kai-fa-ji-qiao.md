@@ -130,7 +130,27 @@ if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AG
 html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
 ```
 
+#### 模拟:hover伪类
 
+因为iPhone并没有鼠标指针，所以没有hover事件。那么CSS :hover伪类就没用了。但是iPhone有Touch事件，onTouchStart 类似 onMouseOver，onTouchEnd 类似 onMouseOut。所以我们可以用它来模拟hover。使用Javascript：
+
+```js
+var myLinks = document.getElementsByTagName('a');
+for(var i = 0; i < myLinks.length; i++){
+　　myLinks[i].addEventListener(’touchstart’, function(){this.className = “hover”;}, false);
+　　myLinks[i].addEventListener(’touchend’, function(){this.className = “”;}, false);
+}
+```
+
+然后用css增加hover效果：
+
+```css
+a:hover, a.hover { /* 你的hover效果 */ }
+```
+
+这样设计一个链接，感觉可以更像按钮。并且，这个模拟可以用在任何元素上。
+
+#### viewport宽度超过device-width宽度 后导致文字无故折行
 
 
 
