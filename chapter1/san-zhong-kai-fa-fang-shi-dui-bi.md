@@ -61,7 +61,5 @@ Cordova还提供了一组统一的JavaScript类库，以及为这些类库所用
 
 ##### Phonegap Build
 
-Phonegap Build是一个在线打包工具，你把使用cordova写好的项目给Phonegap Build，Phonegap Build就会在线打包成App,目前大家所说的Phonegap，其实指的都是cordova
-
-
+Phonegap Build是一个在线打包工具，你把使用cordova写好的项目给Phonegap Build，Phonegap Build就会在线打包成App,目前大家所说的Phonegap，其实指的都是cordova,Phonegap Build，（[iPhone, Android SDK service](https://link.zhihu.com/?target=http%3A//html.adobe.com/edge/phonegap-build/)）和cordova（[Apache Cordova](https://link.zhihu.com/?target=http%3A//cordova.apache.org/)）的合体
 
