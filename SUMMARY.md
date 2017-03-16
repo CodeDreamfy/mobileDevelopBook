@@ -4,7 +4,7 @@
 * [移动端开发概述](chapter1.md)
   * [趋势](chapter1/e-e-e.md)
   * [三种开发方式对比](chapter1/san-zhong-kai-fa-fang-shi-dui-bi.md)
-  * [基于两种操作系统开发的异同点](chapter1/ji-yu-liang-zhong-cao-zuo-xi-tong-kai-fa-de-yi-tong-dian.md)
+  * [基于两种操作系统Web开发的异同点](chapter1/ji-yu-liang-zhong-cao-zuo-xi-tong-kai-fa-de-yi-tong-dian.md)
 * [移动端开发相关知识](yi-dong-duan-kai-fa-xiang-guan-zhi-shi.md)
   * viewport概念
 * 移动端适配方式演进
