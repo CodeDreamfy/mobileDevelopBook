@@ -300,7 +300,12 @@ $(window).on('scroll', function(){
       }, 400);
     }
   })
+```
 
+#### 强制GPU渲染
+
+```css
+a {-webkit-transform: translateZ(0); transform: translateZ(0);}
 ```
 
 
