@@ -335,7 +335,7 @@ var element = document.getElementById("slidingMenu");
 element.addEventListener("transitionend", showMessage, false);
 ```
 
-\[叶小钗 - transitionEnd小故事\]\(http://www.cnblogs.com/yexiaochai/p/3602303.html\)
+\[叶小钗 - transitionEnd小故事\]\([http://www.cnblogs.com/yexiaochai/p/3602303.html\](http://www.cnblogs.com/yexiaochai/p/3602303.html\)\)
 
 #### 判断是否是微信打开1
 
@@ -394,7 +394,7 @@ function orientationChange() {
     };};
 ```
 
-#### 页面视频全屏播放/小窗播放
+#### 页面视频小窗播放
 
 在iOS上需要用到`webkit-playsinline playsinline`属性
 
