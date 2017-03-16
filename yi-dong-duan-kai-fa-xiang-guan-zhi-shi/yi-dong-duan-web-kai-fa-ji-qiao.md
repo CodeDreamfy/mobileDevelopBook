@@ -508,5 +508,18 @@ function musicPlay(isPlay) {
 }
 ```
 
-\[h5背景音乐无法自动播放问题\]\(http://www.h5-share.com/articles/201701/bgmusicarticle.html\)
+\[h5背景音乐无法自动播放问题\]\([http://www.h5-share.com/articles/201701/bgmusicarticle.html\](http://www.h5-share.com/articles/201701/bgmusicarticle.html\)\)
+
+\[2\]\(http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html\)
+
+#### 拍照上传
+
+```html
+<input type=file accept="video/*">
+<input type=file accept="image/*">
+```
+
+不支持其他类型的文件 ，如音频，Pages文档或PDF文件。 也没有getUserMedia摄像头的实时流媒体支持。
+
+
 
