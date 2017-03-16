@@ -53,7 +53,11 @@
 
 ##### PhoneGap
 
-PhoneGap是一款开发源代码的移动设备开发框架，旨在让开发者使用[H](https://zh.wikipedia.org/wiki/HTML)TML、CSS、Javascript等Web APIs开发跨平台的移动设备应用程序
+PhoneGap是一款开发源代码的移动设备开发框架，旨在让开发者使用[H](https://zh.wikipedia.org/wiki/HTML)TML、CSS、Javascript等Web APIs开发跨平台的移动设备应用程序。
+
+PhoneGap是一个行动设备的[API](https://zh.wikipedia.org/wiki/API)接口集，利用JavaScript访问这些接口可以调用诸如摄影机、罗盘等硬件系统资源。配合上一些基于[HTML5](https://zh.wikipedia.org/wiki/HTML5)、[CSS3](https://zh.wikipedia.org/wiki/CSS3)技术的[UI](https://zh.wikipedia.org/wiki/UI)框架，如jQuery Mobile、Dojo Mobile或Sencha Touch，开发者得以快速地开发跨平台App而不需要编写任何的原生代码。[\[11\]](https://zh.wikipedia.org/wiki/Adobe_PhoneGap#cite_note-11)
+
+注意到因为PhoneGap本身仍是一个原生程序，为App打包时依然需要用到这些系统平台的SDK。
 
 ##### Apache Cordova
 
