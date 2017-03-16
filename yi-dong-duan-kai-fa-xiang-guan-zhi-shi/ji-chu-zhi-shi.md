@@ -138,8 +138,7 @@ function is_weixn(){
 
 ```html
 <meta name="apple-touch-fullscreen" content="yes" /> /* 全屏显示 */
-<meta name="apple-mobile-web-app-capable" content="yes" /> /* 删除默认的苹果工具栏和菜单栏,默认是显示 */
 ```
 
-
+以上iOS的meta属性可以参考\(https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html\)
 
