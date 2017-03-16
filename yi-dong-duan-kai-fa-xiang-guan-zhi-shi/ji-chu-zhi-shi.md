@@ -104,8 +104,6 @@ function is_weixn(){
 
 > 以下属性可能仅适用于iOS
 
-
-
 ```html
 <link rel="apple-touch-icon-precomposed" href="http://www.xxx.com/App_icon_114.png" />
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.xxx.com/App_icon_72.png" />
@@ -131,7 +129,7 @@ function is_weixn(){
 这个描述是表示打开的web app的最上面的时间、信号栏是黑色的，当然也可以设置其它参数
 
 ```html
-<meta name =“apple-mobile-web-app-capable”content =“yes”>
+<meta name="apple-mobile-web-app-capabl" content =“yes”>
 ```
 
 如果`content`设置为`yes`，Web应用程序以全屏模式运行;否则，它不会。默认行为是使用Safari显示Web内容。
