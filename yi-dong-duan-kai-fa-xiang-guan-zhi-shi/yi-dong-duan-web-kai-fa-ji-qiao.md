@@ -22,11 +22,16 @@ ontouchstart -> ontouchmove -> ontouchend -> onclick
 
 ```css
 body {
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;//属性控制元素在移动设备上是否使用滚动回弹效果
 }
+//两个值
+//auto： 使用普通滚动, 当手指从触摸屏上移开，滚动会立即停止
+//touch：使用具有回弹效果的滚动, 当手指从触摸屏上移开，内容会继续保持一段时间的滚动效果。继续滚动的速度和持续的时间和滚动手势的强烈程度成正比。同时也会创建一个新的堆栈上下文。
 ```
 
 用iphone或ipad浏览很长的网页滚动时的滑动效果很不错吧？不过如果是一个div，然后设置`height:200px;overflow:auto;`的话，可以滚动但是完全没有那滑动效果，很郁闷吧？
 
 看到很多网站为了实现这一效果，用了第三方类库，最常用的是iscroll（包括新浪手机页，百度等） 我一开始也使用，不过自从用了`-webkit-overflow-scrolling: touch;`样式后，就完全可以抛弃第三方类库了，把它加在body{}区域，所有的overflow需要滚动的都可以生效了。
+
+
 
