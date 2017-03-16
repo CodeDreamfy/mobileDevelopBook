@@ -150,7 +150,7 @@ a:hover, a.hover { /* 你的hover效果 */ }
 
 这样设计一个链接，感觉可以更像按钮。并且，这个模拟可以用在任何元素上。
 
-其他思路：
+##### 其他思路：
 
 要让a链接的CSS active伪类生效，只需要给这个a链接的touch系列的任意事件touchstart/touchend绑定一个空的匿名方法即可hack成功
 
@@ -214,7 +214,35 @@ setTimeout(function() {
 window.location = 'intent://' + schemeUrl + '#Intent;scheme=' + scheme + ';package=' + self.package + ';end';
 ```
 
-补充\[三清水\]\([http://js8.in/2013/12/16/ios使用schema协议调起app/\](http://js8.in/2013/12/16/ios使用schema协议调起app/\)\)
+补充\[三清水\]\([http://js8.in/2013/12/16/ios使用schema协议调起app/\](http://js8.in/2013/12/16/ios使用schema协议调起app/%29\)
+
+#### 消除transition闪屏
+
+两个方法：使用css3动画的时尽量利用3D加速，从而使得动画变得流畅。动画过程中的动画闪白可以通过 backface-visibility 隐藏。
+
+```css
+-webkit-transform-style: preserve-3d;
+/*设置内嵌的元素在 3D 空间如何呈现：保留 3D*/
+-webkit-backface-visibility: hidden;
+/*（设置进行转换的元素的背面在面对用户时是否可见：隐藏）*/
+```
+
+#### 测试是否支持svg图片
+
+```js
+document.implementation.hasFeature("http:// www.w3.org/TR/SVG11/feature#Image", "1.1")
+```
+
+测试是否支持某CSS属性
+
+**`CSS.supports()`**
+
+The**`CSS.supports()`**static methods returns a[`Boolean`](https://developer.mozilla.org/en-US/docs/Web/API/Boolean)value indicating if the browser supports a given CSS feature, or not.
+
+```js
+boolValue = CSS.supports(propertyName, value);
+boolValue = CSS.supports(supportCondition);
+```
 
 
 
