@@ -56,5 +56,41 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 }
 ```
 
+如果你需要持续观察查询结果值的变化情况，那么就很有必要来注册一个监听器，这比手动检查查询结果要有效很多.
+
+```js
+var mql = window.matchMedia("(orientation: portrait)");
+mql.addListener(handleOrientationChange);
+handleOrientationChange(mql);
+```
+
+上述代码创建了一个屏幕方向的测试查询列表mql，并且添加了事件监听。
+
+需要注意的是，当我们添加监听后，我们其实直接调用了一次监听。这会让我们的监听器以目前设备方向来初始化判定代码。或者说如果我们代码设定设备处于竖屏模式，而实际上它启动时处于横屏模式，那么我们后面的判断就出现矛盾了。
+
+我们可以在`handleOrientationChange()` 方法中来查看查询结果
+
+```js
+function handleOrientationChange(mql) {
+  if (mql.matches) {
+    /* The device is currently in portrait orientation */
+  } else {
+    /* The device is currently in landscape orientation */
+  }
+}
+//终止查询通知
+mql.removeListener(handleOrientationChange);
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
