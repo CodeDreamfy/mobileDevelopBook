@@ -2,5 +2,11 @@
 
 要解决上面的疑惑，需要对viewport有一个清晰的概念。
 
+先罗列下学习移动端需要知道的一些单位：
+
+> px、pt、pc、sp、em、rem、dp、dip、ppi、ldpi、mdpi、hdpi、xhdpi、xxhdpi...
+
+
+
 
 
