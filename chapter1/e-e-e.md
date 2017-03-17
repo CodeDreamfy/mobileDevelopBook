@@ -12,10 +12,8 @@
 
 依据友盟的数据显示：
 
-* 从活跃设备类型来看，Android和Windows设备数量占比小幅提升
+* 从活跃设备类型来看，Android份额持续上升，windows设备份额变化不大
 * iOS占有率略有下降
 
 ![](/assets/zhanbi0.png)
-
-
 
