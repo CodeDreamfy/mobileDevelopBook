@@ -379,7 +379,6 @@ function is_weixin(){
     }
     return false;
 }
-
 ```
 
 #### 判断屏幕是否旋转
@@ -570,9 +569,22 @@ myWebView.setWebChromeClient(new WebChromeClient(){
 
 一般用代理软件代理过来的静态资源可以设置nocache避免缓存，但是有的手机比较诡异，会一直缓存住css等资源文件。由于静态资源一般都是用版本号管理的
 
+#### 媒体查询常用样式表：
 
+```html
+<link rel="stylesheet" media="all and (orientation:portrait)" href="portrait.css">    // 竖放加载
+<link rel="stylesheet" media="all and (orientation:landscape)"href="landscape.css">   // 横放加载
 
+//竖屏时使用的样式
+<style media="all and (orientation:portrait)" type="text/css">
+    #landscape { display: none; }
+</style>
 
+//横屏时使用的样式
+<style media="all and (orientation:landscape)" type="text/css">
+    #portrait { display: none; }
+</style>
+```
 
 
 

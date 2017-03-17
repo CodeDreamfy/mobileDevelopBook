@@ -14,8 +14,8 @@
   * [渲染类型](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/xuan-ran-lei-xing.md)
   * [Javascript](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/javascript.md)
   * [基础知识](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/ji-chu-zhi-shi.md)
-  * [移动端web开发技巧](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/yi-dong-duan-web-kai-fa-ji-qiao.md)
 * [移动端适配方式](yi-dong-duan-shi-pei-fang-shi-yan-jin.md)
 * [移动端调试](qi-ta-zhu-yi-wen-ti.md)
+* [移动端web排坑与技巧](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/yi-dong-duan-web-kai-fa-ji-qiao.md)
 * [未来发展](wei-lai-fa-zhan.md)
 
