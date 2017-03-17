@@ -515,11 +515,13 @@ function musicPlay(isPlay) {
 }
 ```
 
+##### 更多参考资料
+
 \[h5背景音乐无法自动播放问题\]\([http://www.h5-share.com/articles/201701/bgmusicarticle.html\](http://www.h5-share.com/articles/201701/bgmusicarticle.html%29\)
 
 \[2\]\([http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html\](http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html%29\)
 
-\[h5案例分享 - 音乐无法自动播放\]\(http://www.h5-share.com/articles/201701/bgmusicarticle.html\)
+\[h5案例分享 - 音乐无法自动播放\]\([http://www.h5-share.com/articles/201701/bgmusicarticle.html\](http://www.h5-share.com/articles/201701/bgmusicarticle.html\)\)
 
 #### 拍照上传
 
