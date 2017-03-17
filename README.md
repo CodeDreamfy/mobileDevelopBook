@@ -4,15 +4,15 @@
 
 文章内主要参考了
 
+\[友盟指数\]\(http://www.umindex.com/devices/\)
+
 \[阿里巴巴无线前端规范\]\([https://am-team.github.io/amg/dev-exp-doc.html\](https://am-team.github.io/amg/dev-exp-doc.html%29\)
 
 \[H5 案例分享\]\([http://www.h5-share.com/articles.php\](http://www.h5-share.com/articles.php%29\)
 
 \[网易分享\]\([https://www.icloud.com/keynote/000DIf8ISxFcuxka4YozKLaOg\#Mobile\_Webpage\_如何自适应屏幕\_2\](https://www.icloud.com/keynote/000DIf8ISxFcuxka4YozKLaOg#Mobile_Webpage_如何自适应屏幕_2%29\)
 
-\[腾讯移动Web前端知识库 Mars\]\([https://github.com/AlloyTeam/Mars\](https://github.com/AlloyTeam/Mars\)\)
+\[腾讯移动Web前端知识库 Mars\]\([https://github.com/AlloyTeam/Mars\](https://github.com/AlloyTeam/Mars%29\)
 
-\[移动端资源收集 - mobileTech\]\(https://github.com/jtyjty99999/mobileTech\)
-
-
+\[移动端资源收集 - mobileTech\]\([https://github.com/jtyjty99999/mobileTech\](https://github.com/jtyjty99999/mobileTech\)\)
 
