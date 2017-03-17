@@ -519,6 +519,8 @@ function musicPlay(isPlay) {
 
 \[2\]\([http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html\](http://blog.wangdaodao.com/2015-06-02/WeChat-music-autoplay-iphone.html%29\)
 
+\[h5案例分享 - 音乐无法自动播放\]\(http://www.h5-share.com/articles/201701/bgmusicarticle.html\)
+
 #### 拍照上传
 
 ```html
@@ -592,7 +594,5 @@ myWebView.setWebChromeClient(new WebChromeClient(){
 
 #### 微信视频播放全屏问题
 
-http://www.h5-share.com/articles/201702/videowechat.html
-
-
+[http://www.h5-share.com/articles/201702/videowechat.html](http://www.h5-share.com/articles/201702/videowechat.html)
 
