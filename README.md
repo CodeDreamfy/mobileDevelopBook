@@ -4,7 +4,7 @@
 
 文章内主要参考了
 
-\[友盟指数\]\(http://www.umindex.com/devices/\)
+\[友盟指数\]\([http://www.umindex.com/devices/\](http://www.umindex.com/devices/\)\)
 
 \[阿里巴巴无线前端规范\]\([https://am-team.github.io/amg/dev-exp-doc.html\](https://am-team.github.io/amg/dev-exp-doc.html%29\)
 
@@ -14,5 +14,11 @@
 
 \[腾讯移动Web前端知识库 Mars\]\([https://github.com/AlloyTeam/Mars\](https://github.com/AlloyTeam/Mars%29\)
 
-\[移动端资源收集 - mobileTech\]\([https://github.com/jtyjty99999/mobileTech\](https://github.com/jtyjty99999/mobileTech\)\)
+\[移动端资源收集 - mobileTech\]\([https://github.com/jtyjty99999/mobileTech\](https://github.com/jtyjty99999/mobileTech%29\)
+
+
+
+设计素材
+
+\[设计达人 - iPhone6 psd设计模型素材集合\]\(http://www.shejidaren.com/iphone-6-psds.html\)
 
