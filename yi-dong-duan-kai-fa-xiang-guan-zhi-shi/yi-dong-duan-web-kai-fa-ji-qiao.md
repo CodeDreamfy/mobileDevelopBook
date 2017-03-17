@@ -588,7 +588,11 @@ myWebView.setWebChromeClient(new WebChromeClient(){
 
 #### 微信二维码长按无法识别问题解析
 
-http://www.h5-share.com/articles/201702/wxewmsbug.html
+[http://www.h5-share.com/articles/201702/wxewmsbug.html](http://www.h5-share.com/articles/201702/wxewmsbug.html)
+
+#### 微信视频播放全屏问题
+
+http://www.h5-share.com/articles/201702/videowechat.html
 
 
 
