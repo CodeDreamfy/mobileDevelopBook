@@ -48,7 +48,7 @@
 
 ##### ppi：pixels per inch 屏幕上每英寸可以显示的像素点数量，即屏幕密度
 
-##### dpi：dots per inch，用
+##### dpi：dots per inch，用来衡量打印物上每英寸的点数密度，就是打印机可以在一英寸内打印多少个点。应在计算机上面就是ppi，ppi和dpi是同一个概念，
 
 
 
