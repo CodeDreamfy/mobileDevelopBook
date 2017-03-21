@@ -44,7 +44,11 @@
 
 对角线分辨率除以屏幕尺寸：2203/5≈440dpi
 
-#### 
+#### 什么是ppi、dpi、dp、dip、sp、px？
+
+##### ppi：pixels per inch 屏幕上每英寸可以显示的像素点数量，即屏幕密度
+
+##### dpi：dots per inch，用
 
 
 
