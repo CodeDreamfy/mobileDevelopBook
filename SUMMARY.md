@@ -9,6 +9,7 @@
 * [移动端开发相关知识](yi-dong-duan-kai-fa-xiang-guan-zhi-shi.md)
   * [viewport概念](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/viewportgai-nian.md)
   * [深入了解viewport和px](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px.md)
+    * [区别](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/qu-bie.md)
   * [html](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/html.md)
   * [css](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/css.md)
   * [渲染类型](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/xuan-ran-lei-xing.md)
