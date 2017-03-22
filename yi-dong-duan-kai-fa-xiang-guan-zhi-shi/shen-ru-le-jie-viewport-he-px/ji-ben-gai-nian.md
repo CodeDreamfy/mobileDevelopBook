@@ -38,6 +38,12 @@ dip = (px (value)/ window.devicePixelRatio)
 window.devicePixelRatio //可以直接拿到
 ```
 
+dp与px的换算关系：`1dp = (dpi)/160`
+
+
+
+
+
 最明显的就是iPhone 3GS与iPhone 4的区别
 
 ![](/assets/1441638591_1436653066_8124_imageAddr.jpg)
