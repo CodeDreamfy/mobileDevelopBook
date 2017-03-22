@@ -11,6 +11,7 @@
     * [基本概念](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/ji-ben-gai-nian.md)
     * [PPI](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/ppi.md)
     * [DPI](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/qu-bie.md)
+    * [分辨率](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/fen-bian-lv.md)
   * [viewport概念](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/viewportgai-nian.md)
   * [html](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/html.md)
   * [css](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/css.md)
