@@ -30,6 +30,7 @@
 
 ```textg
 设备像素比 = 物理像素 / 设备独立像素 //在某一方向上 ，x，y
+window.devicePixelRatio //可以直接拿到
 ```
 
 最明显的就是iPhone 3GS与iPhone 4的区别
