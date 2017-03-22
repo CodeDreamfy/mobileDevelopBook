@@ -4,7 +4,9 @@
 
 #### 文章内主要参考
 
-\[设备尺寸查询\]\([https://material.io/devices/\](https://material.io/devices/\)\)
+\[设备尺寸查询\]\([https://material.io/devices/\](https://material.io/devices/%29\)
+
+\[设备尺寸查询2\]\(http://screensiz.es/phone\)
 
 \[友盟指数\]\([http://www.umindex.com/devices/\](http://www.umindex.com/devices/%29\)
 
