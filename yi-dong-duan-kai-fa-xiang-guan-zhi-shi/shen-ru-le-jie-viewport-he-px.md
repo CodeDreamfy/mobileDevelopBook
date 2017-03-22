@@ -44,5 +44,9 @@ di是屏幕对角线的长度（英寸）
 | XHDPI | 极高像素密度 | 每英寸320像素 |
 | XXHDPI | 超高像素密度 | 每英寸480像素 |
 
+最后XHDPI指具有类似于苹果Retina显示屏效果的屏幕，下图为iPhone 3GS与iPhone 4显示效果比：
 
+![](/assets/400px-Non-Retina_Display.jpg)![](/assets/400px-Retina_Display.jpg)
+
+左图为iPhone 3GS（160每英寸，MDPI）右图为iPhone 4（326每英寸像素，XDPI）
 
