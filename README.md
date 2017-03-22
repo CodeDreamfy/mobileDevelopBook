@@ -4,6 +4,8 @@
 
 #### 文章内主要参考
 
+\[设备尺寸查询\]\(https://material.io/devices/\)
+
 \[友盟指数\]\([http://www.umindex.com/devices/\](http://www.umindex.com/devices/%29\)
 
 \[阿里巴巴无线前端规范\]\([https://am-team.github.io/amg/dev-exp-doc.html\](https://am-team.github.io/amg/dev-exp-doc.html%29\)
@@ -18,5 +20,5 @@
 
 #### 设计素材
 
-\[设计达人 - iPhone6 psd设计模型素材集合\]\([http://www.shejidaren.com/iphone-6-psds.html\](http://www.shejidaren.com/iphone-6-psds.html\)\)
+\[设计达人 - iPhone6 psd设计模型素材集合\]\([http://www.shejidaren.com/iphone-6-psds.html\](http://www.shejidaren.com/iphone-6-psds.html%29\)
 
