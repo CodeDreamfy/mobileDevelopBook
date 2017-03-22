@@ -1,10 +1,10 @@
 # 浅谈移动端开发
 
-总结梳理移动端开发的相关知识点与历史
+总结梳理移动端开发的相关知识点与历史，持续更新整理中·····
 
 #### 文章内主要参考
 
-\[设备尺寸查询\]\(https://material.io/devices/\)
+\[设备尺寸查询\]\([https://material.io/devices/\](https://material.io/devices/\)\)
 
 \[友盟指数\]\([http://www.umindex.com/devices/\](http://www.umindex.com/devices/%29\)
 
