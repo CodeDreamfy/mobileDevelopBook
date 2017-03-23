@@ -4,5 +4,7 @@ viewport加之前与加之后的对比
 
 ![](/assets/view1.jpg)![](/assets/view2.jpg)
 
+棘手的问题
 
+device-width与meta中的width=device-width标签都可以使用设备像素，而不是css像素
 
