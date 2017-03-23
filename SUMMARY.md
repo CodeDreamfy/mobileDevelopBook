@@ -14,6 +14,7 @@
     * [分辨率](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/fen-bian-lv.md)
     * [iPhone 6屏幕揭秘](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/iphone-6ping-mu-jie-mi.md)
     * [梳理](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/ju-ti-bao-xi.md)
+    * [设备像素比](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/she-bei-xiang-su-bi.md)
   * [viewport概念](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/viewportgai-nian.md)
     * [视窗介绍](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/viewportgai-nian/shi-chuang-jie-shao.md)
     * [view的作用](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/viewportgai-nian/viewde-zuo-yong.md)
