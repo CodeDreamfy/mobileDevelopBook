@@ -16,6 +16,7 @@
     * [具体刨析](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/shen-ru-le-jie-viewport-he-px/ju-ti-bao-xi.md)
   * [viewport概念](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/viewportgai-nian.md)
     * [视窗介绍](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/viewportgai-nian/shi-chuang-jie-shao.md)
+    * [view的作用](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/viewportgai-nian/viewde-zuo-yong.md)
   * [html](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/html.md)
   * [css](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/css.md)
   * [渲染类型](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/xuan-ran-lei-xing.md)
