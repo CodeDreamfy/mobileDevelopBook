@@ -28,6 +28,14 @@
 
 经过缩小后的设备像素比图
 
+看完三个图后我们可以得到如下结论：
+
+> 一个设备光电可以对应一个css像素（PPI = 160时）
+>
+> 一个设备光点可以对应多个css像素（缩小）
+>
+> 一个css像素可以对应多个设备光点（放大）
+
 
 
 iPhone 5s/6/6s等使用的是Retina视网膜屏幕，所谓Retina指的是ppi值超过300的叫做超高密度屏幕，只是苹果换了一个高大上的名称。
@@ -36,11 +44,5 @@ iPhone 5s/6/6s等使用的是Retina视网膜屏幕，所谓Retina指的是ppi值
 
 普通屏幕即标准PPI下一个设备光点对应一个css像素时，页面完美渲染出来。但是在现在这个高逼格的年代，更多的是Retina视网膜屏幕
 
-
-
-
-
-
-
-\[参考链接\]\(http://yunkus.com/physical-pixel-device-independent-pixels/\)
+\[参考链接\]\([http://yunkus.com/physical-pixel-device-independent-pixels/\](http://yunkus.com/physical-pixel-device-independent-pixels/\)\)
 
