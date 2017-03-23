@@ -4,13 +4,13 @@ viewport虽然只是一个单词，但是囊括了三个方面。
 
 几个属性概念
 
-> window.innerWidth：浏览器视口（viewport）（像素）
+> `window.innerWidth`：浏览器视口（viewport）（像素）
 >
-> window.outerWidth：获取浏览器窗口外部的宽度。表示整个浏览器窗口的宽度
+> `window.outerWidth`：获取浏览器窗口外部的宽度。表示整个浏览器窗口的宽度
 >
-> HTMLElement.offsetWidth：返回一个元素的布局宽度
+> `HTMLElement.offsetWidth`：返回一个元素的布局宽度
 >
-> Element.clientWidth：返回元素内部宽度
+> `Element.clientWidth`：返回元素内部宽度
 
 #### 视觉窗口
 
