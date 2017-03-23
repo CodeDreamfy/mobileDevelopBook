@@ -6,5 +6,5 @@ viewport加之前与加之后的对比
 
 棘手的问题
 
-device-width与meta中的width=device-width标签都可以使用设备像素，而不是css像素
+device-width与meta中的width=device-width标签都可以使用设备像素，而不是css像素，因为他声明了网页的上下文，而不是内部css的变化
 
