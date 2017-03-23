@@ -15,6 +15,16 @@
 viewport有几个属性需要了解
 
 > width: 控制viewport的大小，可以指定一个值，比如375，或者给他一个特殊的值，如：device-width，device-width为设备的宽度，屏幕宽度（单位为缩放为100%时css的像素）
+>
+> height：与width相对应，指定viewport高度
+>
+> initial-scale：初始缩放比例，页面第一次load的缩放比例
+>
+> maximum-scale：允许用户缩放的最大比例
+>
+> minimum-scale：允许用户缩放到的最小比例
+>
+> user-scalable；是否允许用户缩放
 
 
 
