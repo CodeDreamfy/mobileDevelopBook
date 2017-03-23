@@ -14,5 +14,15 @@
 
 在一定条件下两者是相等的，比如pc端浏览器默认没有缩放的情况下，一个物理像素 = 一个设备独立像素。但是在移动端不一样，很多时候都不相等。为了让用户看起来更爽，画质更清晰，因此出来一个东西ppi
 
-ppi全称（pixel per inch），每英寸像素点，就是说每英寸内有多少个像素点，这个像素点指的是设备像素点（物理像素），
+ppi全称（pixel per inch），每英寸像素点，就是说每英寸内有多少个像素点，这个像素点指的是设备像素点（物理像素），说点接地气的话ppi就是像素密度，设备像素密度（device pixel density）。ppi值越高，画质就越好。那么ppi是怎么算的？
+
+![](/assets/physical-pixel-device-independent-pixels-1.jpg)
+
+![](/assets/physical-pixel-device-independent-pixels-2-1.png)
+
+计算结果和红框中的值大概是一样的，实际上是有一点点误差的，四舍五入了。
+
+设备独立像素和设备像素是如何换算的呢？
+
+答案是通过设备像素比（dpr，device pixel ratio）来进行换算的。
 
