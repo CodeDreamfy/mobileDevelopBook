@@ -26,5 +26,15 @@ viewport有几个属性需要了解
 >
 > user-scalable；是否允许用户缩放
 
+meta的viewport的几种写法：
 
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes">
+```
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+```
+
+既然已经禁止用户进行缩放了，那么就不存在设置范围了。
 
