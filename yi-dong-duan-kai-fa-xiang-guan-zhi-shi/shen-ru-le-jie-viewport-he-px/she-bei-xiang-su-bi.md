@@ -8,7 +8,7 @@
 
 设备像素就是物理像素，设备可以直接控制的最小的像素单元。
 
-#### 如何拿到设备像素比？
+#### 如何拿到设备像素比？dpr
 
 可以通过JavaScript中的`window.devicePixelRatio`来获取设备中的像素比值
 
@@ -42,5 +42,5 @@ iPhone 5s/6/6s等使用的是Retina视网膜屏幕，所谓Retina指的是ppi值
 
 普通屏幕即标准PPI下一个设备光点对应一个css像素时，页面完美渲染出来。但是在现在这个高逼格的年代，更多的是Retina视网膜屏幕
 
-以上内容参考自\[云库网\]\(http://yunkus.com/physical-pixel-device-independent-pixels/\)
+以上内容参考自\[云库网\]\([http://yunkus.com/physical-pixel-device-independent-pixels/\](http://yunkus.com/physical-pixel-device-independent-pixels/\)\)
 
