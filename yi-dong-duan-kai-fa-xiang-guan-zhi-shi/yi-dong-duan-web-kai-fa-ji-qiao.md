@@ -596,3 +596,13 @@ myWebView.setWebChromeClient(new WebChromeClient(){
 
 [http://www.h5-share.com/articles/201702/videowechat.html](http://www.h5-share.com/articles/201702/videowechat.html)
 
+#### 微信端清除缓存
+
+http://debugx5.qq.com
+
+
+
+
+
+
+
