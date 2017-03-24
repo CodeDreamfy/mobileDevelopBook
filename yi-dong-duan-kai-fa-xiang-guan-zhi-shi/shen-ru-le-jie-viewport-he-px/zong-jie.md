@@ -13,6 +13,14 @@
 1. 通过window.devicePixelRatio来获取
 2. 设备ppi/160ppi的四舍五入值
 
+我们可以看下devicePixelRatio属性的介绍
+
+> window.devicePixelRatio是一个只读属性，它返回的是一个物理像素在当前显示的设备（垂直）上的一个独立像素的比例
+
+虽然我们无法直接获取到物理设备的像素大小，但是我们可以通过js算出来
+
+> screen.width \* window.devicePixelRatio
+
 
 
 
