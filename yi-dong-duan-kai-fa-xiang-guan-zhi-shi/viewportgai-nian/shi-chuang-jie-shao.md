@@ -2,6 +2,8 @@ viewport虽然只是一个单词，但是包涵了两个视口，分为：视觉
 
 几个属性概念
 
+> `screen.width`：返回屏幕的宽度
+>
 > `window.innerWidth`：浏览器视口（viewport）（像素）vw单位基于适口的大小来确定的
 >
 > `window.outerWidth`：获取浏览器窗口外部的宽度。表示整个浏览器窗口的宽度
