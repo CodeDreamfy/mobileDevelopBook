@@ -401,6 +401,10 @@ function orientationChange() {
     };};
 ```
 
+#### 判断横竖屏
+
+https://aotu.io/notes/2017/01/31/detect-orientation/
+
 #### 页面视频小窗播放
 
 在iOS上需要用到`webkit-playsinline playsinline`属性
