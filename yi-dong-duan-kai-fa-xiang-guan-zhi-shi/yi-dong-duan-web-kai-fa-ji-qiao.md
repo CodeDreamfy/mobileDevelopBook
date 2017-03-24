@@ -598,11 +598,7 @@ myWebView.setWebChromeClient(new WebChromeClient(){
 
 #### 微信端清除缓存
 
-http://debugx5.qq.com
+Android：[http://debugx5.qq.com](http://debugx5.qq.com)
 
-
-
-
-
-
+iOS：刷新或者关闭应用后在设置里面清除
 
