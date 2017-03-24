@@ -20,11 +20,11 @@
 
 标准PPI（160）下的设备像素比
 
-![](blob:file:///47bc4051-9dba-4c80-b9d5-4d3ef6566db2)
+![](/assets/csspixels_in.gif)
 
 经过放大后的设备像素比图示
 
-![](blob:file:///7f5f0345-2689-4f3f-81a4-ac6db7938e3e)
+![](/assets/csspixels_out.gif)
 
 经过缩小后的设备像素比图
 
@@ -36,13 +36,11 @@
 >
 > 一个css像素可以对应多个设备光点（放大）
 
-
-
 iPhone 5s/6/6s等使用的是Retina视网膜屏幕，所谓Retina指的是ppi值超过300的叫做超高密度屏幕，只是苹果换了一个高大上的名称。
 
 做移动页面开发时，经常会出现：在不同手机上看，里面的图片，文字或者线的大小会不一样，原因就是刚才说的涉笔像素比在作怪。
 
 普通屏幕即标准PPI下一个设备光点对应一个css像素时，页面完美渲染出来。但是在现在这个高逼格的年代，更多的是Retina视网膜屏幕
 
-\[参考链接\]\([http://yunkus.com/physical-pixel-device-independent-pixels/\](http://yunkus.com/physical-pixel-device-independent-pixels/\)\)
+\[参考链接\]\([http://yunkus.com/physical-pixel-device-independent-pixels/\](http://yunkus.com/physical-pixel-device-independent-pixels/%29\)
 
