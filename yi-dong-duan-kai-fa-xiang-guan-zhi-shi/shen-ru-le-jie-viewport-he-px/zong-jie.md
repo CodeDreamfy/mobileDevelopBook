@@ -21,7 +21,7 @@
 
 > screen.width \* window.devicePixelRatio
 
-
+因此当我们拿到dpr的时候，我们就知道了我们css中的1px像素代表着实际物理像素的几个设备像素。
 
 
 
