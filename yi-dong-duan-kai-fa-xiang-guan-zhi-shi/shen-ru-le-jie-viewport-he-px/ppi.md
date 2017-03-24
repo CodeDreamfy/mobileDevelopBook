@@ -46,5 +46,5 @@ di是屏幕对角线的长度（英寸）
 
 ![](/assets/400px-Non-Retina_Display.jpg)![](/assets/400px-Retina_Display.jpg)
 
-左图为iPhone 3GS（160每英寸，MDPI）右图为iPhone 4（326每英寸像素，XDPI）
+左图为iPhone 3GS（160每英寸，MDPI）                                      右图为iPhone 4（326每英寸像素，XDPI）
 
