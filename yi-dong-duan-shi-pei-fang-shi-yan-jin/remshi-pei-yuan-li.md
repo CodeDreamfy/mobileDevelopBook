@@ -46,7 +46,7 @@ webkit现在默认字体大小是16px
     @return ($px/$rem)+ rem;
 }
 
-//使用方式：width: px2rem(90px); 
+//使用方式：width: px2rem(90px);
 ```
 
 #### rem基准值计算
@@ -64,9 +64,21 @@ webkit现在默认字体大小是16px
 
 然后动态的设置html的font-size就可以了
 
+如何动态的设置呢？
 
+1. 利用css的media query来设置
 
+```css
+@media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
+      html{font-size: 37.5px;}
+}
+```
 
+2. 利用js动态的设置，根据我们之前算出的基准值，可以动态的算出当前屏幕所适配的font-size
+
+```js
+document.getElementsByTagName('html')[0].style.fontSize = window.innerWidth / 10 + 'px';
+```
 
 
 
