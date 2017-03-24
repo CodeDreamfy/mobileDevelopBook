@@ -10,7 +10,7 @@
 >
 > 结合overflow：auto，滚动条最终占用的空间大小不是减去视口大小之后的宽度，而overflow：scroll才是。
 >
-> **vw，vh**：视口视窗的1/100
+> **vw，vh**：视口视窗的1/100（拓展：vmin，vmax）
 
 
 
