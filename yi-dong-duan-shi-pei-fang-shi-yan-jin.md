@@ -14,7 +14,27 @@
 
 那么当我们把rem当度量单位用的时候呢？
 
-100px换算成rem是好多呢，100/16
+lib.flexible.js
+
+```js
+!function(doc, win){
+    var timer,docEle = doc.docuementElement,
+    evt = "onorientationchange" in window ? "orientationchange" : "resize";
+    setFontSize = function(){
+        var width = docEle.innerWidth;
+        var base = 750 / 10;
+        width && (docEle.style.fontSize = (width/750) * base +'px')
+        win.fontSize = (width/750) * base;
+    },
+    win.addEventListener(evt, function(){
+        clearTimer(timer);
+        timer = setInterval(setFontSize,200)
+    } , false)
+    doc.addEventListent('DOMContentLoaded', setFontSize, false);
+    setFontSize()
+    
+}(document,window)
+```
 
 
 
