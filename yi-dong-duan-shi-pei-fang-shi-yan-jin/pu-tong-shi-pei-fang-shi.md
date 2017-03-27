@@ -2,7 +2,5 @@
 
 #### 固定高度，宽度自适应
 
-viewport meta 设置成 width=device-width
-
-
+viewport meta 设置成 width=device-width，垂直方向的高度和间距使用定值，水平方向混合使用定值和百分百或利用弹性布局，最终达到“当手机屏幕变化时，横向拉伸或者填充空白的效果”，图片元素根据容器情况，使用定值或者background-siz缩放
 
