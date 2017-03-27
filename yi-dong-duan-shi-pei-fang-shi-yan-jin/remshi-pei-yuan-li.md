@@ -88,5 +88,13 @@ iPhone 6p/6sp/7p： 414 / 10 = 41.4px；
 document.getElementsByTagName('html')[0].style.fontSize = window.innerWidth / 10 + 'px';
 ```
 
+##### rem适配进阶
+
+我们知道，一般我们获取到的视觉稿大部分是iphone6的，所以我们看到的尺寸一般是双倍大小的，在使用rem之前，我们一般会自觉的将标注/2，其实这也并无道理，但是当我们配合rem使用时，完全可以按照视觉稿上的尺寸来设置。
+
+1 设计给的稿子双倍的原因是iphone6这种屏幕属于高清屏，所以显示的像素较为清晰，不用重复提供多倍图的图片了。
+
+
+
 
 
