@@ -27,6 +27,8 @@
   * [Javascript](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/javascript.md)
   * [基础知识](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/ji-chu-zhi-shi.md)
 * [移动端适配方式](yi-dong-duan-shi-pei-fang-shi-yan-jin.md)
+  * [普通适配方式](yi-dong-duan-shi-pei-fang-shi-yan-jin/pu-tong-shi-pei-fang-shi.md)
+  * [rem适配原理](yi-dong-duan-shi-pei-fang-shi-yan-jin/remshi-pei-yuan-li.md)
 * [移动端开发技巧与排坑指南](yi-dong-duan-kai-fa-xiang-guan-zhi-shi/yi-dong-duan-web-kai-fa-ji-qiao.md)
 * [移动端调试](qi-ta-zhu-yi-wen-ti.md)
 * [未来发展](wei-lai-fa-zhan.md)
