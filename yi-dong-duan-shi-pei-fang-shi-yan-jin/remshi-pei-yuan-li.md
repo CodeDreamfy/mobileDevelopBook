@@ -99,7 +99,7 @@ document.getElementsByTagName('html')[0].style.fontSize = window.innerWidth / 10
 ```
 var e = window.innerWidth;
 // $('html').css({
-// 	fontSize: e/10
+//     fontSize: e/10
 // })
 // console.log(e)
 var dpr = window.devicePixelRatio;
@@ -109,6 +109,11 @@ vpMeta.setAttribute("name", "viewport");
 vpMeta.setAttribute('content', 'initial-scale=' + 1/dpr + ', maximum-scale=' + 1/dpr + ', minimum-scale=' + 1/dpr + ', user-scalable=no');
 document.documentElement.firstElementChild.appendChild(vpMeta)
 ```
+
+使用缩放的这种方式解决了一些问题：
+
+1. 图片高清问题
+2. border 1px问题
 
 
 
