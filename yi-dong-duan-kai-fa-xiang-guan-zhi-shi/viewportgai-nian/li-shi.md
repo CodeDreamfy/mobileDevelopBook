@@ -16,3 +16,18 @@
 
 当设备改变方向时，火狐Fennec会改变viewport的尺寸，页面布局及javascript/css属性（如device-width），会基于新的窗口维度。
 
+
+
+#### 新增
+
+viewport中增加了target-densitydpi属性
+
+device-dpi –使用设备原本的 dpi 作为目标 dp。 不会发生默认缩放。
+
+* high-dpi – 使用hdpi 作为目标 dpi。 中等像素密度和低像素密度设备相应缩小。
+* medium-dpi – 使用mdpi作为目标 dpi。 高像素密度设备相应放大， 像素密度设备相应缩小。 这是默认的target density.
+* low-dpi -使用mdpi作为目标 dpi。中等像素密度和高像素密度设备相应放大。
+* &lt;value&gt; – 指定一个具体的dpi 值作为target dpi. 这个值的范围必须在70–400之间。
+
+
+
