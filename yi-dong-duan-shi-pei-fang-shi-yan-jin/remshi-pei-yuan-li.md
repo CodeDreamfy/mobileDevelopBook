@@ -70,7 +70,7 @@ iPhone 6/6s/7： 375 / 10 = 37.5px；
 
 iPhone 6p/6sp/7p： 414 / 10 = 41.4px；
 
-然后动态的设置html的font-size就可以了
+然后动态的设置html的font-size就可以了，
 
 如何动态的设置呢？
 
@@ -82,7 +82,7 @@ iPhone 6p/6sp/7p： 414 / 10 = 41.4px；
 }
 ```
 
-1. 利用js动态的设置，根据我们之前算出的基准值，可以动态的算出当前屏幕所适配的font-size
+2. 利用js动态的设置，根据我们之前算出的基准值，可以动态的算出当前屏幕所适配的font-size
 
 ```js
 document.getElementsByTagName('html')[0].style.fontSize = window.innerWidth / 10 + 'px';
