@@ -97,7 +97,17 @@ document.getElementsByTagName('html')[0].style.fontSize = window.innerWidth / 10
 3. 拿到dpr后，我们可以动态的设置viewport meta头部里面的缩放了
 
 ```
-
+var e = window.innerWidth;
+// $('html').css({
+// 	fontSize: e/10
+// })
+// console.log(e)
+var dpr = window.devicePixelRatio;
+var vpMeta = document.createElement("meta");
+vpMeta.setAttribute("name", "viewport");
+// var meta = document.getElementsByTagName('meta')[0];
+vpMeta.setAttribute('content', 'initial-scale=' + 1/dpr + ', maximum-scale=' + 1/dpr + ', minimum-scale=' + 1/dpr + ', user-scalable=no');
+document.documentElement.firstElementChild.appendChild(vpMeta)
 ```
 
 
