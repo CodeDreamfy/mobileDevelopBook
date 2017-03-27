@@ -60,7 +60,7 @@ webkit现在默认字体大小是16px
 
 > rem = window.innerWidth / 10
 
-这里为什么要除以10，这个值是随便定义的，主要是不想要rem的font-size太大，当然可以选择不除。
+这里为什么要除以10，这个值只是为了方便计算，主要是不想要rem的font-size太大，当然可以选择不除。
 
 然后动态的设置html的font-size就可以了
 
