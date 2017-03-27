@@ -74,7 +74,7 @@ iPhone 6p/6sp/7p： 414 / 10 = 41.4px；
 
 如何动态的设置呢？
 
-1. 利用css的media query来设置
+1 利用css的media query来设置
 
 ```css
 @media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
@@ -82,7 +82,7 @@ iPhone 6p/6sp/7p： 414 / 10 = 41.4px；
 }
 ```
 
-2. 利用js动态的设置，根据我们之前算出的基准值，可以动态的算出当前屏幕所适配的font-size
+2 利用js动态的设置，根据我们之前算出的基准值，可以动态的算出当前屏幕所适配的font-size
 
 ```js
 document.getElementsByTagName('html')[0].style.fontSize = window.innerWidth / 10 + 'px';
