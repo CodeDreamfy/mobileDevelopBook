@@ -62,6 +62,14 @@ webkit现在默认字体大小是16px
 
 这里为什么要除以10，这个值只是为了方便计算，主要是不想要rem的font-size太大，当然可以选择不除。
 
+iPhone 3gs： 320px / 10 = 32px；
+
+iPhone 4/4s/5/5s：320 / 10 = 32px；
+
+iPhone 6/6s/7： 375 / 10 = 37.5px；
+
+iPhone 6p/6sp/7p： 414 / 10 = 41.4px；
+
 然后动态的设置html的font-size就可以了
 
 如何动态的设置呢？
